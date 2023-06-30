@@ -16,8 +16,8 @@ LUA_FUNCTION(writetocfg)
 	char currentmap[64];
 	char map[256];
 	memset(config, 0, sizeof(config));
-	memset(currentmap, 0, sizeof(currentmap));  
-	memset(map, 0, sizeof(map));             
+	memset(currentmap, 0, sizeof(currentmap));
+	memset(map, 0, sizeof(map));
 
 	#if defined(_WIN32)	
 		GetCurrentDirectoryA(sizeof(config), config);
@@ -26,7 +26,7 @@ LUA_FUNCTION(writetocfg)
 	#endif
 
 	strcat(config, "/garrysmod/cfg/lastmap.cfg");
-    strcat(map, "map ");
+	strcat(map, "map ");
 	strcat(currentmap, LUA->GetString(1));
 	strcat(map, currentmap);
 
@@ -42,8 +42,8 @@ LUA_FUNCTION(writetocfg)
 	strcat(map, " written to file!");
 	LUA->PushSpecial(GarrysMod::Lua::SPECIAL_GLOB);
 	LUA->GetField(-1, "print");
-    LUA->PushString(map);
-    LUA->Call(1, 0);
+	LUA->PushString(map);
+	LUA->Call(1, 0);
 	LUA->Pop();
 
 	return 1;
