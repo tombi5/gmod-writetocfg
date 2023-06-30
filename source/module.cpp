@@ -15,9 +15,9 @@ LUA_FUNCTION(writetocfg)
 	char config[256];
 	char currentmap[64];
 	char map[256];
-	memset(config, 0, sizeof(config)); //         <3<3<3<3<3<3<3<3<3<3<3
-	memset(currentmap, 0, sizeof(currentmap)); // I Love you ChatGPT 🥺 
-	memset(map, 0, sizeof(map)); //               <3<3<3<3<3<3<3<3<3<3<3
+	memset(config, 0, sizeof(config));
+	memset(currentmap, 0, sizeof(currentmap));  
+	memset(map, 0, sizeof(map));             
 
 	#if defined(_WIN32)	
 		GetCurrentDirectoryA(sizeof(config), config);
