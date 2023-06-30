@@ -1,0 +1,7 @@
+﻿  module.cpp
+     Creating library x86\Release\gmsv_writetocfg_win32.lib and object x86\Release\gmsv_writetocfg_win32.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 352 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  gmsv_writetocfg.vcxproj -> C:\Users\fopses\Desktop\TheGmodThing\projects\windows\vs2022\x86\Release\gmsv_writetocfg_win32.dll

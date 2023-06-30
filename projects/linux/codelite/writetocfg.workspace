@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="writetocfg" Database="" Version="10000">
+  <VirtualDirectory Name="SourceSDK">
+    <Project Name="LZMA" Path="../../../garrysmod_common/sourcesdk-minimal/projects/linux/codelite/LZMA.project"/>
+    <Project Name="tier1" Path="../../../garrysmod_common/sourcesdk-minimal/projects/linux/codelite/tier1.project"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="garrysmod_common">
+    <Project Name="detouring" Path="../../../garrysmod_common/detouring/projects/linux/codelite/detouring.project"/>
+    <Project Name="hde" Path="../../../garrysmod_common/detouring/projects/linux/codelite/hde.project"/>
+    <Project Name="helpers" Path="../../../garrysmod_common/projects/linux/codelite/helpers.project"/>
+    <Project Name="lua_shared" Path="../../../garrysmod_common/projects/linux/codelite/lua_shared.project"/>
+    <Project Name="minhook" Path="../../../garrysmod_common/detouring/projects/linux/codelite/minhook.project"/>
+    <Project Name="scanning" Path="../../../garrysmod_common/scanning/projects/linux/codelite/scanning.project"/>
+  </VirtualDirectory>
+  <Project Name="gmsv_writetocfg" Path="gmsv_writetocfg.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="ReleaseWithSymbols" Selected="no">
+      <Environment/>
+      <Project Name="LZMA" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="tier1" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="detouring" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="hde" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="helpers" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="lua_shared" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="minhook" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="scanning" ConfigName="ReleaseWithSymbols"/>
+      <Project Name="gmsv_writetocfg" ConfigName="ReleaseWithSymbols"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="LZMA" ConfigName="Release"/>
+      <Project Name="tier1" ConfigName="Release"/>
+      <Project Name="detouring" ConfigName="Release"/>
+      <Project Name="hde" ConfigName="Release"/>
+      <Project Name="helpers" ConfigName="Release"/>
+      <Project Name="lua_shared" ConfigName="Release"/>
+      <Project Name="minhook" ConfigName="Release"/>
+      <Project Name="scanning" ConfigName="Release"/>
+      <Project Name="gmsv_writetocfg" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Environment/>
+      <Project Name="LZMA" ConfigName="Debug"/>
+      <Project Name="tier1" ConfigName="Debug"/>
+      <Project Name="detouring" ConfigName="Debug"/>
+      <Project Name="hde" ConfigName="Debug"/>
+      <Project Name="helpers" ConfigName="Debug"/>
+      <Project Name="lua_shared" ConfigName="Debug"/>
+      <Project Name="minhook" ConfigName="Debug"/>
+      <Project Name="scanning" ConfigName="Debug"/>
+      <Project Name="gmsv_writetocfg" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
